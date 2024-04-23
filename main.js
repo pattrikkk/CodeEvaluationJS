@@ -2,7 +2,7 @@ import TestClass from './TestClass.js';
 import MySolution from './MySolution.js';
 import config from './config.json' assert { type: 'json' };
 
-function loadConfig() {
+function setup() {
   const testCases = config.testcases;
 
   console.log(findSameMethods());
@@ -111,5 +111,5 @@ function areMethodSignatureEqual(testClassMethod, mySolutionMethod) {
   return testClassMethod.length === mySolutionMethod.length;
 }
 
-loadConfig();
+setup();
 
