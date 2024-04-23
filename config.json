@@ -1,0 +1,17 @@
+{
+    "testcases": {
+      "Test": {
+        "constructor": ["sasd", "iP3"],
+        "methods": [
+          {
+            "method": "sum",
+            "parameters": ["iP5", "iP3"]
+          },           
+          {
+            "method": "sum",
+            "parameters": ["iP10", "iP50"]
+          }
+        ]
+      }
+    }
+  }
