@@ -1,17 +1,21 @@
 {
-    "testcases": {
-      "Test": {
-        "constructor": ["sasd", "iP3"],
-        "methods": [
-          {
-            "method": "sum",
-            "parameters": ["iP5", "iP3"]
-          },           
-          {
-            "method": "sum",
-            "parameters": ["iP10", "iP50"]
-          }
-        ]
-      }
+  "testcases": {
+    "test_case_1": {
+      "constructor": ["iZ", "iP10"],
+      "methods": [
+        { "method": "sum", "parameters": ["iI10,15", "iN5"] },
+        { "method": "value" },
+        { "method": "reverseString", "parameters": ["eJobs"]}
+      ]
+    },
+    "test_case_2": {
+      "constructor": ["iX5", "iX10"],
+      "methods": [
+        { "method": "value" },
+        { "method": "test", "parameters": ["iX50", "iN100"] },
+        { "method": "reverseString", "parameters": ["sPeter"]}
+      ]
     }
-  }
+  },
+  "Jobs": ["Engineer", "Doctor", "Teacher", "Pilot", "Nurse", "Scientist", "Artist", "Musician", "Athlete", "Chef"]
+}
